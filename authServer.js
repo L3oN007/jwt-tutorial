@@ -26,6 +26,12 @@ const users = [
     password: '123',
     role: 'admin',
   },
+  {
+    id: 3,
+    username: 'trainer',
+    password: '123',
+    role: 'trainer',
+  },
 ]; // Store user data in-memory (for demonstration purposes)
 
 app.use(express.json());
